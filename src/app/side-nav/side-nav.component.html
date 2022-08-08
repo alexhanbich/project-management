@@ -1,0 +1,36 @@
+
+<p class="">logo</p>
+<div class="my-8 font-medium text-gray-700">
+    <h2 class="my-2 text-xs text-gray-600 uppercase">Issues</h2>
+    <a class="flex justify-between my-2 px-3 py-2 rounded-md" [class.active]="tabKey==='1'" (click)="onTabClick('1')">
+        <span>All</span>
+        <span>36</span>
+    </a>
+    <a class="flex justify-between my-2 px-3 py-2 rounded-md" [class.active]="tabKey==='2'" (click)="onTabClick('2')">
+        <span>Assigned to me</span>
+        <span>36</span>
+    </a>
+    <a class="flex justify-between my-2 px-3 py-2 rounded-md" [class.active]="tabKey==='3'" (click)="onTabClick('3')">
+        <span>Created by me</span>
+        <span>36</span>
+    </a>
+    <a class="flex justify-between my-2 px-3 py-2 rounded-md" [class.active]="tabKey==='4'" (click)="onTabClick('4')">
+        <span>Arcived</span>
+        <span>36</span>
+    </a>
+</div>
+<!-- <div class="flex flex-col my-8 font-medium text-gray-700">
+    <h2 class="my-2 text-xs text-gray-600 uppercase">Tags</h2>
+    <a class="my-2 px-3 py-2 mr-auto rounded-lg" [class.active]="tagKeyList.includes('1')" (click)="onTagClick('1')">
+        <span>Tag 1</span>
+    </a>
+    <a class="my-2 px-3 py-2 mr-auto rounded-lg" [class.active]="tagKeyList.includes('2')" (click)="onTagClick('2')">
+        <span>Tag 2</span>
+    </a>
+    <a class="my-2 px-3 py-2 mr-auto rounded-lg" [class.active]="tagKeyList.includes('3')" (click)="onTagClick('3')">
+        <span>Tag 3</span>
+    </a>
+    <a class="my-2 px-3 py-2 mr-auto rounded-lg" [class.active]="tagKeyList.includes('4')" (click)="onTagClick('4')">
+        <span>Tag 4</span>
+    </a>
+</div> -->

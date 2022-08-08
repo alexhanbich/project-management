@@ -1,0 +1,9 @@
+.active {
+    background-color: rgb(229 231 235);
+    font-weight: 600;
+}
+
+/* .not-active {
+    background-color: inherit;
+    font-weight: inherit;
+} */
